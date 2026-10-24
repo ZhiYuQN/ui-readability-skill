@@ -77,13 +77,13 @@ AI 生成的界面有一种固定症状：满屏正确但无用的说明。
 
 ```bash
 # Claude Code
-git clone https://github.com/YOUR-NAME/ui-readability-skill.git ~/.claude/skills/ui-readability
+git clone https://github.com/ZhiYuQN/ui-readability-skill.git ~/.claude/skills/ui-readability
 
 # WorkBuddy
-git clone https://github.com/YOUR-NAME/ui-readability-skill.git ~/.workbuddy/skills/ui-readability
+git clone https://github.com/ZhiYuQN/ui-readability-skill.git ~/.workbuddy/skills/ui-readability
 ```
 
-把 `YOUR-NAME` 换成仓库所在账号。其他支持 Agent Skills 规范（`SKILL.md` + YAML frontmatter）的宿主，把整个目录放进去即可。
+其他支持 Agent Skills 规范（`SKILL.md` + YAML frontmatter）的宿主，把整个目录放进去即可。
 
 > 技能清单在会话启动时固定，安装后需新开一个对话才会加载。
 
